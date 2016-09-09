@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mowing Calculations with Forms</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="mowing.js"></script>
+ </head>   
+<body>
+
+<form>
+<h1>Working with Forms</h1>
+        <h2>Lawn Service Cost Estimator</h2>
+        <!-- assume 1 room, calculate square footage of all walls, assume 50 cents per square foot -->
+        <p>Please enter your values below in feet, then click "submit"</p>
+        <label for="fylength">Front yard length</label>
+        <input type="text" id="fylength"/><br/>
+
+        <label for="fywidth">Front yard width</label>
+        <input type="text" id="fywidth"/><br/>
+
+        <label for="bylength">Back yard length</label>
+        <input type="text" id="bylength"/><br/>
+
+        <label for="bywidth">Back yard width</label>
+        <input type="text" id="bywidth"/><br/>
+
+        <label for="lslength">Left side of yard length</label>
+        <input type="text" id="lslength"/><br/>
+
+        <label for="lswidth">Left side of yard width</label>
+        <input type="text" id="lswidth"/><br/>
+
+        <label for="rslength">Right side of yard length</label>
+        <input type="text" id="rslength"/><br/>
+
+        <label for="rswidth">Right side of yard width</label>
+        <input type="text" id="rswidth"/><br/>
+
+
+        <input type="button" id="submit" value="Estimate Cost"/><br/>
+        <p>&nbsp;</p>
+        <label for="mowingcost">Calculated cost:</label>
+        <input type="text" id="mowingcost"/><br/>
+</form>
+ </body>
+ </head>
